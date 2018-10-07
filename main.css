@@ -1,0 +1,31 @@
+* {
+box-sizing: border-box;
+margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+#carousel-section{
+margin-top:2rem;
+}
+
+.carousel-inner {
+  max-height: 768px;
+}
+
+
+
+/*-------RESPONSIVE DESIGN-------*/
+/*-------Tablet Display-------*/
+
+@media screen and ( min-width: 545px ) {
+
+}
+
+/*-------Desktop Display-------*/
+
+@media screen and ( min-width: 769px ) {
+
+}
