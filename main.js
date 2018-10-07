@@ -28,6 +28,11 @@ function displayResult(data){
 let content = "";
 for(i = 0; i < data.length; i++){
   console.log(data[i]);
-}
 
+  content+=`
+    <div class="result-container">
+    <h2>${data[i].username}</h2>
+  </div>`;
+}
+display.innerHTML = content;
 }
