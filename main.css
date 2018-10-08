@@ -11,8 +11,15 @@ img {
 margin-top:2rem;
 }
 
-.carousel-inner {
-  max-height: 768px;
+#display-content{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.card{
+  width: 25%;
+  padding: 3px;
 }
 
 
